@@ -1,0 +1,15 @@
+import java.util.*;
+public class eg2 {
+    public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+       System.out.println("Enter Mark:");
+       int mark = input.nextInt();
+       if(mark>=35){
+        System.out.println("pass");
+       }else{
+        System.out.println("fail");
+       }
+        input.close();
+}
+
+}
