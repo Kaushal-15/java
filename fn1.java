@@ -7,7 +7,7 @@ public class fn1{
  }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        mobile getSoap = new mobile();
+        fn1 getSoap = new fn1();
         System.out.println("Enter the price of the soap:");
         int num = input.nextInt();
         getSoap.soap(num);
